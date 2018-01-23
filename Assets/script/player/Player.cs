@@ -4,13 +4,34 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Start()
+    {
+
+    }
+
+
+
+
+
+    void Update () {
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.position += new Vector3(0.2f, 0, 0);      //右移動
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.position += new Vector3(-0.2f, 0, 0);     //左移動
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.position += new Vector3(0, 0.2f, 0);      //上移動
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.position += new Vector3(0, -0.2f, 0);     //下移動
+        }
+
+    }
+
 }
