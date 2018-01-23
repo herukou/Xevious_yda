@@ -1,9 +1,34 @@
 fileFormatVersion: 2
 guid: 917e5bba8d3780d49a696804547776e6
-timeCreated: 1513736168
+timeCreated: 1516670643
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Xevious_OBJ_andorGenesisParts_0
+    21300002: Xevious_OBJ_andorGenesisParts_1
+    21300004: Xevious_OBJ_andorGenesisParts_2
+    21300006: Xevious_OBJ_andorGenesisParts_3
+    21300008: Xevious_OBJ_andorGenesisParts_4
+    21300010: Xevious_OBJ_andorGenesisParts_5
+    21300012: Xevious_OBJ_andorGenesisParts_6
+    21300014: Xevious_OBJ_andorGenesisParts_7
+    21300016: Xevious_OBJ_andorGenesisParts_8
+    21300018: Xevious_OBJ_andorGenesisParts_9
+    21300020: Xevious_OBJ_andorGenesisParts_10
+    21300022: Xevious_OBJ_andorGenesisParts_11
+    21300024: Xevious_OBJ_andorGenesisParts_12
+    21300026: Xevious_OBJ_andorGenesisParts_13
+    21300028: Xevious_OBJ_andorGenesisParts_14
+    21300030: Xevious_OBJ_andorGenesisParts_15
+    21300032: Xevious_OBJ_andorGenesisParts_16
+    21300034: Xevious_OBJ_andorGenesisParts_17
+    21300036: Xevious_OBJ_andorGenesisParts_18
+    21300038: Xevious_OBJ_andorGenesisParts_19
+    21300040: Xevious_OBJ_andorGenesisParts_20
+    21300042: Xevious_OBJ_andorGenesisParts_21
+    21300044: Xevious_OBJ_andorGenesisParts_22
+    21300046: Xevious_OBJ_andorGenesisParts_23
+    21300048: Xevious_OBJ_andorGenesisParts_24
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +83,350 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 73
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 73
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 73
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 73
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 55
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 55
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 55
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 37
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 37
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 19
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_19
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 19
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Xevious_OBJ_andorGenesisParts_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
