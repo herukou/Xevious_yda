@@ -13,6 +13,16 @@ public class Enemy_S : MonoBehaviour {
 
     private GameObject target;
 
+    //爆発
+    public GameObject explosion;
+
+
+    //爆発作成
+    public void Explosion()
+    {
+        Instantiate(explosion, transform.position, transform.rotation);
+    }
+
 
     public float GetAim()
     {

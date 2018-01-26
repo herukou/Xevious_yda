@@ -4,18 +4,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
 
-    Ship ship;
-
-    void Start()
-    {
-        ship = GetComponent<Ship>();
-
-        ship.Move(transform.up * -1);
-    }
+    Enemy_S Enemy_S;
 
     public void OnTriggerEnter2D(Collider2D c)
     {
-        ship.Explosion();
+        Enemy_S.Explosion();
 
         Destroy(gameObject);
     }

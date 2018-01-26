@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 51fef0ab8bb095d49bc2340b15fd2f19
-timeCreated: 1516669614
+timeCreated: 1516847723
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -90,8 +90,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 104
+        x: 1
+        y: 103
         width: 34
         height: 34
       alignment: 0
@@ -103,8 +103,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 104
+        x: 35
+        y: 103
         width: 34
         height: 34
       alignment: 0
@@ -116,8 +116,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 70
+        x: 1
+        y: 69
         width: 34
         height: 34
       alignment: 0
@@ -129,8 +129,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_3
       rect:
         serializedVersion: 2
-        x: 34
-        y: 70
+        x: 35
+        y: 69
         width: 34
         height: 34
       alignment: 0
@@ -142,8 +142,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_4
       rect:
         serializedVersion: 2
-        x: 68
-        y: 70
+        x: 69
+        y: 69
         width: 34
         height: 34
       alignment: 0
@@ -155,8 +155,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_5
       rect:
         serializedVersion: 2
-        x: 102
-        y: 70
+        x: 103
+        y: 69
         width: 34
         height: 34
       alignment: 0
@@ -168,8 +168,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_6
       rect:
         serializedVersion: 2
-        x: 136
-        y: 70
+        x: 137
+        y: 69
         width: 34
         height: 34
       alignment: 0
@@ -181,8 +181,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_7
       rect:
         serializedVersion: 2
-        x: 170
-        y: 70
+        x: 171
+        y: 69
         width: 34
         height: 34
       alignment: 0
@@ -194,8 +194,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_8
       rect:
         serializedVersion: 2
-        x: 204
-        y: 70
+        x: 205
+        y: 69
         width: 34
         height: 34
       alignment: 0
@@ -207,8 +207,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 36
+        x: 1
+        y: 35
         width: 34
         height: 34
       alignment: 0
@@ -220,8 +220,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_10
       rect:
         serializedVersion: 2
-        x: 34
-        y: 36
+        x: 35
+        y: 35
         width: 34
         height: 34
       alignment: 0
@@ -233,8 +233,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_11
       rect:
         serializedVersion: 2
-        x: 68
-        y: 36
+        x: 69
+        y: 35
         width: 34
         height: 34
       alignment: 0
@@ -246,8 +246,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_12
       rect:
         serializedVersion: 2
-        x: 102
-        y: 36
+        x: 103
+        y: 35
         width: 34
         height: 34
       alignment: 0
@@ -259,8 +259,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_13
       rect:
         serializedVersion: 2
-        x: 136
-        y: 36
+        x: 137
+        y: 35
         width: 34
         height: 34
       alignment: 0
@@ -272,8 +272,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_14
       rect:
         serializedVersion: 2
-        x: 170
-        y: 36
+        x: 171
+        y: 35
         width: 34
         height: 34
       alignment: 0
@@ -285,8 +285,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_15
       rect:
         serializedVersion: 2
-        x: 204
-        y: 36
+        x: 205
+        y: 35
         width: 34
         height: 34
       alignment: 0
@@ -298,8 +298,8 @@ TextureImporter:
       name: Xevious_OBJ_enemyBig_col0_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
+        x: 1
+        y: 1
         width: 34
         height: 34
       alignment: 0

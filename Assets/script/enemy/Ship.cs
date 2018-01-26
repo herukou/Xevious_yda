@@ -14,15 +14,7 @@ public class Ship : MonoBehaviour {
     //弾
     public GameObject bullet;
 
-    //爆発
-    public GameObject explosion;
-
-
-    //爆発作成
-    public void Explosion()
-    {
-        Instantiate(explosion, transform.position, transform.rotation);
-    }
+   
 
 
     public void Shot (Transform origin)
