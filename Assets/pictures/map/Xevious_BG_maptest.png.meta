@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 1c4ec3461f7f42042a7d8971ef936a42
-timeCreated: 1515724370
+guid: e6cbb02b1746df34584f87ba42cac1a6
+timeCreated: 1517534016
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Xevious_BG_map_0
-    21300002: Xevious_BG_map_1
-    21300004: Xevious_BG_map_2
-    21300006: Xevious_BG_map_3
-    21300008: Xevious_BG_map_4
-    21300010: Xevious_BG_map_5
-    21300012: Xevious_BG_map_6
-    21300014: Xevious_BG_map_7
-    21300016: Xevious_BG_map_8
-    21300018: Xevious_BG_map_9
+    21300000: Xevious_BG_maptest_0
+    21300002: Xevious_BG_maptest_1
+    21300004: Xevious_BG_maptest_2
+    21300006: Xevious_BG_maptest_3
+    21300008: Xevious_BG_maptest_4
+    21300010: Xevious_BG_maptest_5
+    21300012: Xevious_BG_maptest_6
+    21300014: Xevious_BG_maptest_7
+    21300016: Xevious_BG_maptest_8
+    21300018: Xevious_BG_maptest_9
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -50,7 +50,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 20
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -80,7 +80,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Xevious_BG_map_0
+      name: Xevious_BG_maptest_0
       rect:
         serializedVersion: 2
         x: 0
@@ -93,7 +93,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Xevious_BG_map_1
+      name: Xevious_BG_maptest_1
       rect:
         serializedVersion: 2
         x: 128
@@ -106,7 +106,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Xevious_BG_map_2
+      name: Xevious_BG_maptest_2
       rect:
         serializedVersion: 2
         x: 256
@@ -119,7 +119,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Xevious_BG_map_3
+      name: Xevious_BG_maptest_3
       rect:
         serializedVersion: 2
         x: 384
@@ -132,7 +132,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Xevious_BG_map_4
+      name: Xevious_BG_maptest_4
       rect:
         serializedVersion: 2
         x: 512
@@ -145,7 +145,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Xevious_BG_map_5
+      name: Xevious_BG_maptest_5
       rect:
         serializedVersion: 2
         x: 640
@@ -158,7 +158,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Xevious_BG_map_6
+      name: Xevious_BG_maptest_6
       rect:
         serializedVersion: 2
         x: 768
@@ -171,7 +171,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Xevious_BG_map_7
+      name: Xevious_BG_maptest_7
       rect:
         serializedVersion: 2
         x: 896
@@ -184,26 +184,26 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Xevious_BG_map_8
+      name: Xevious_BG_maptest_8
       rect:
         serializedVersion: 2
-        x: 261
-        y: 1958
-        width: 374
-        height: 89
+        x: 0
+        y: 1
+        width: 253
+        height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Xevious_BG_map_9
+      name: Xevious_BG_maptest_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 276
-        height: 97
+        x: 260
+        y: 1960
+        width: 377
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
