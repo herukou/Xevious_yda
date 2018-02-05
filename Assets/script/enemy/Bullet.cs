@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour {
 
-    public int speed = 10;
+    public float speed = 10;
 
+
+      private int timeCount;
+    
 
     // Use this for initialization
     void Start () {
         GetComponent<Rigidbody2D>().velocity = transform.up.normalized * speed;
-    
+
     }
-	
-	// Update is called once per frame
-	void Update () {
-        
+
+    // Update is called once per frame
+    void Update () {
+        timeCount += 1;
+      
+        Destroy(this.gameObject, 1.5f);
     }
 }

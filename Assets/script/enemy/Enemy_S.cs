@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Enemy_S : MonoBehaviour {
 
 
@@ -13,14 +14,16 @@ public class Enemy_S : MonoBehaviour {
 
     private GameObject target;
 
+    int cnt = 0;
+
     //爆発
-    public GameObject explosion;
+    public GameObject explotion;
 
 
     //爆発作成
-    public void Explosion()
+    public void Explotion()
     {
-        Instantiate(explosion, transform.position, transform.rotation);
+        Instantiate(explotion, transform.position, transform.rotation);
     }
 
 
@@ -48,32 +51,35 @@ public class Enemy_S : MonoBehaviour {
     IEnumerator Start()
     {
         target = GameObject.Find("Player");
-
-        while (true)
-        {
-
-            /// 子要素を全て取得する
-            for (int i = 0; i < transform.childCount; i++)
+        
+            while (true)
             {
+               
+                /// 子要素を全て取得する
+                    for (int i = 0; i < transform.childCount; i++)
+                    {
 
-               Transform shotPosition = transform.GetChild(i);
+                    Transform shotPosition = transform.GetChild(i);
 
-                this.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f + GetAim());
+                    this.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f + GetAim());
 
-                // ShotPositionの位置/角度で弾を撃つ
-                Shot(shotPosition);
+                    // ShotPositionの位置/角度で弾を撃つ
+                    Shot(shotPosition);
+                    }
+
+
+                // shotDelay秒待つ
+                yield return new WaitForSeconds(shotDelay);
+                
             }
-            
-
-            // shotDelay秒待つ
-            yield return new WaitForSeconds(shotDelay);
-        }
 
         
 
     }
 	// Update is called once per frame
 	void Update () {
+        cnt++;
         transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        
     }
 }
