@@ -22,7 +22,7 @@ public class music_mori : MonoBehaviour
 
         StartCoroutine(Checking(() =>
         {
-            Debug.Log("END");
+            //Debug.Log("END");
             
             audio2.Play();
         }));
