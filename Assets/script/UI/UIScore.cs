@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class UI : MonoBehaviour {
- 
-    // Use this for initialization
-    void Start () {
+
+public class UIScore : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
 		
 	}
 	
@@ -13,7 +14,7 @@ public class UI : MonoBehaviour {
 	void Update () {
         if (Input.GetKey(KeyCode.Space))
         {
-            SceneManager.LoadScene("Xevious");
+            SceneManager.LoadScene("ui");
         }
     }
 }

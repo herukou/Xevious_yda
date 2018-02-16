@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class UI : MonoBehaviour {
- 
-    // Use this for initialization
-    void Start () {
+
+public class UIgameover : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.Space))
+       if (Input.GetKey(KeyCode.Space))
         {
-            SceneManager.LoadScene("Xevious");
+            SceneManager.LoadScene("uiend");
         }
     }
 }
