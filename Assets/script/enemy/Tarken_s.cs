@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class Enemy_S : MonoBehaviour {
-
+public class Tarken_s : MonoBehaviour
+{
+    Tarken Tarken;
 
     // 弾のPrefab
     public GameObject bullet;
 
     private GameObject target;
 
-    int cnt;
-  
+    float cnt;
+
 
     //爆発
     public GameObject explotion;
@@ -43,25 +44,29 @@ public class Enemy_S : MonoBehaviour {
         Instantiate(bullet, origin.position, origin.rotation);
     }
 
-    
+
 
     // Use this for initialization
     void Start()
     {
-         cnt = 0;
+        cnt = 0;
         //target = GameObject.Find("Player");
 
+        Tarken = GetComponent<Tarken>();
 
     }
 
+    
 
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update()
+    {
         cnt++;
 
         target = GameObject.Find("Player");
 
-        if (cnt == 50)
+        if (cnt == Tarken.rand)
+        //if (cnt % 5 == 0)
         {
 
             /// 子要素を全て取得する
